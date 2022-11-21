@@ -20,7 +20,7 @@ public class CustomerServiceImpl implements CustomerService {
 	CustomerRepository customerRepository;
 
 	@Autowired
-	private ModelMapper modelMapper;
+	ModelMapper modelMapper;
 
 	@Override
 	public CustomerDto saveCustomer(CustomerDto customerDto) {
